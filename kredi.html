@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kredi Hesaplama Aracı</title>
+    <script src="kredi.js"></script>
+</head>
+<body>
+    <h3>Kredi Hesapla Aracı</h3>
+    <form action="#" id="krediform">
+        <label for="krediTutari">Kredi tutarını giriniz:</label>
+        <input type="text" name="" id="krediTutari">
+        <label for="vadesecimi">Vade giriniz:</label>
+        <select name="" id="vadeTercihleri">
+            <option value="12">12 ay</option>
+            <option value="24">24 ay</option>
+            <option value="36">36 ay</option>
+            <option value="48">48 ay</option>
+            <option value="60">60 ay</option>
+        </select>
+        <input type="button" value="Hesapla" onclick="hesapla();">
+    </form>
+    <h5 id="sonuc"></h5>
+</body>
+</html>
